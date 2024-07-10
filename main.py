@@ -29,10 +29,9 @@ def hello(username):
 #     return f'File located at: {filepath}'
 
 
-# ОШИБКА - аргумент arg1 съедается агрументом filepath
 # @app.route('/files/<path:filepath>/<int:arg1>')
 # def show_file(filepath, arg1):
-#     return f'File located at: {filepath}'
+#     return f'path: {filepath}; num: {arg1}'
 
 
 # @app.route('/user/<uuid:user_id>')
@@ -43,6 +42,3 @@ def hello(username):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
